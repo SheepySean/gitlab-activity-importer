@@ -20,6 +20,7 @@ func CheckEnvVariables() error {
 		"BASE_URL",
 		"GITLAB_TOKEN",
 		"COMMITER_NAME",
+		"GITLAB_COMMITER_NAME",
 		"COMMITER_EMAIL",
 		"ORIGIN_REPO_URL",
 		"ORIGIN_TOKEN",

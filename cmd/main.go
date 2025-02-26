@@ -51,7 +51,7 @@ func main() {
 
 	}()
 
-	services.FetchAllCommits(projectIds, os.Getenv("COMMITER_NAME"), commitChannel)
+	services.FetchAllCommits(projectIds, os.Getenv("GITLAB_COMMITER_NAME"), commitChannel)
 
 	services.PushLocalCommits(repo)
 	log.Printf("Operation took: %v in total.", time.Since(startNow))
